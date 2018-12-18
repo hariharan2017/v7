@@ -2,12 +2,9 @@ package com.example.health.v7;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -90,18 +87,15 @@ public class HomePage extends AppCompatActivity
         int id = item.getItemId();
         {
             if (id == R.id.menu_patient_data) {
-                fragment = new submit_patient();
-                title = "Submit Data";
+                fragment = new submit_patient_fragment();
+                title = "Submit Patient Data";
             }
             else if (id == R.id.menu_overview) {
-                fragment = new overview();
-                title = "Overview";
+                fragment = new Training();
+                title = "Training Details";
             } else if (id == R.id.menu_hospital_details) {
-                fragment = new hospital();
-                title = "Hospital Details";
-            } else if (id == R.id.menu_materials) {
-                fragment = new materials();
-                title = "Materials";
+                fragment = new RHCP();
+                title = "Certified RHCP";
             } else if (id == R.id.menu_help) {
                 fragment = new help();
                 title = "Help";

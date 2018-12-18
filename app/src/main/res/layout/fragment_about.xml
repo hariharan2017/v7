@@ -17,4 +17,24 @@
         android:layout_marginTop="30dp"
         android:text="About" />
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="98dp"
+        android:text="
+YAKSHMAAT\n
+An app based on eradication of Tuberculosis from India.\n
+Creators - \n
+Anika
+Shrushti
+Aneesh
+Hariharan
+" />
+
 </RelativeLayout>

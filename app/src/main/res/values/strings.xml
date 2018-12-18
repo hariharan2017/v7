@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">v7</string>
+    <string name="app_name">Yakshmaat</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -7,6 +7,15 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_are_recognized_as_a_legal_rural_healthcare_provider_by_the_government_of_india_incentive_of_rs_150_on_every_tb_patient_data_by_the_rhcp_and_free_medicines_for_the_first_10_tb_patients_receive_diagnostic_kits_for_tb_skin_test_at_subsidized_rate_receive_anti_tb_fdc_s_for_tb_at_a_subsidized_rate_receive_support_from_the_government_during_an_epidemic_emergency_in_your_area">• You are recognized as a legal rural healthcare provider by the government of India. • Incentive of Rs. 150 on every TB patient data by the RHCP and free medicines for the first 10 TB patients. • Receive diagnostic kits for TB skin test at subsidized rate. • Receive anti-TB FDC’s for TB at a subsidized rate. • Receive support from the government during an epidemic emergency in your area.</string>
+    <string name="congratulations_on_becoming_a_certified_rural_health_care_provider_rhcp_n_benefits_of_becoming_a_rhcp">Congratulations on becoming a certified Rural Health Care Provider (RHCP).  Benefits of becoming a RHCP-</string>
+    <string name="are_you_a_certified_rhcp">Are you a certified RHCP?</string>
+    <string name="become_a_certified_legal_rural_healthcare_provider_rhcp_by_attending_these_free_training_programs_to_receive_benefits_from_the_government">Become a certified legal rural healthcare provider (RHCP) by attending these free training programs to receive benefits from the government.</string>
+    <string name="you_become_a_certified_rhcp_only_upon_completion_of_all_these_training_programs">You become a certified RHCP only upon completion of all these training programs.</string>
+    <string name="submit_patient_data">Submit Patient Data</string>
+    <string name="training">Training</string>
+    <string name="certified_rhcp">Certified RHCP</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
 </resources>

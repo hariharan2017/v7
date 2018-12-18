@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class submit_patient extends android.support.v4.app.Fragment {
+public class submit_patient_fragment extends android.support.v4.app.Fragment {
 
     @Nullable
     @Override

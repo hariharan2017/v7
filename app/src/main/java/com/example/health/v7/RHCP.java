@@ -7,12 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class hospital extends android.support.v4.app.Fragment {
+public class RHCP extends android.support.v4.app.Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_hospital, null);
+        return inflater.inflate(R.layout.fragment_rhcp, null);
     }
 
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {

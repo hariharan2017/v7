@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RHCP">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/are_you_a_certified_rhcp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="488dp"
+        android:text="@string/congratulations_on_becoming_a_certified_rural_health_care_provider_rhcp_n_benefits_of_becoming_a_rhcp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/you_are_recognized_as_a_legal_rural_healthcare_provider_by_the_government_of_india_incentive_of_rs_150_on_every_tb_patient_data_by_the_rhcp_and_free_medicines_for_the_first_10_tb_patients_receive_diagnostic_kits_for_tb_skin_test_at_subsidized_rate_receive_anti_tb_fdc_s_for_tb_at_a_subsidized_rate_receive_support_from_the_government_during_an_epidemic_emergency_in_your_area" />
+
+</RelativeLayout>

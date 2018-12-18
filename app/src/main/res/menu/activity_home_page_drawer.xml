@@ -7,28 +7,24 @@
         <item
             android:id="@+id/menu_patient_data"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Submit Patient Data" />
+            android:title="@string/submit_patient_data" />
         <item
             android:id="@+id/menu_overview"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Overview" />
+            android:title="@string/training" />
         <item
             android:id="@+id/menu_hospital_details"
             android:icon="@drawable/ic_menu_share"
-            android:title="Hospital Details" />
-        <item
-            android:id="@+id/menu_materials"
-            android:icon="@drawable/ic_menu_send"
-            android:title="Materials" />
+            android:title="@string/certified_rhcp" />
         <item
             android:id="@+id/menu_help"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Help" />
+            android:title="@string/help" />
 
         <item
             android:id="@+id/menu_about"
             android:icon="@drawable/ic_menu_camera"
-            android:title="About" />
+            android:title="@string/about" />
 
     </group>
 </menu>

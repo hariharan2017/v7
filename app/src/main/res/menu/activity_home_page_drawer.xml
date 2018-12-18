@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_patient_data"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Submit Patient Data" />
+        <item
+            android:id="@+id/menu_overview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Overview" />
+        <item
+            android:id="@+id/menu_hospital_details"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Hospital Details" />
+        <item
+            android:id="@+id/menu_materials"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Materials" />
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About" />
+
+    </group>
+</menu>

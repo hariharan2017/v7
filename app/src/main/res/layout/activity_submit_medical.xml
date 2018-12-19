@@ -160,7 +160,9 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="22dp"
             android:text="Enter the Medical History of the Patient"
-            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
             android:textStyle="bold|italic" />
 
         <TextView
@@ -309,7 +311,11 @@
             android:layout_marginStart="-22dp"
             android:layout_marginLeft="-22dp"
             android:layout_marginTop="621dp"
-            android:text="Treatment Provided" />
+            android:text="Treatment Provided"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView20"

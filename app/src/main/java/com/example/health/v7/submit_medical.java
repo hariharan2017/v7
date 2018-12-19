@@ -99,16 +99,16 @@ public class submit_medical extends AppCompatActivity {
 
         StringBuffer result1 = new StringBuffer();
         result1.append("TB Skin Test:").append(ch1.isChecked());
-        result1.append("TB Blood Test:").append(ch3.isChecked());
-        result1.append("None:").append(ch2.isChecked());
+        result1.append("  | TB Blood Test:").append(ch3.isChecked());
+        result1.append("  | None:").append(ch2.isChecked());
 
         String Patient_under_Doctor = et2.getText().toString();
 
         StringBuffer result2 = new StringBuffer();
         result2.append("Isonizid: ").append(ch4.isChecked());
-        result2.append("Pyrazinamide: ").append(ch6.isChecked());
-        result2.append("Rifampicin").append(ch5.isChecked());
-        result2.append("Ethambutol").append(ch7.isChecked());
+        result2.append("  | Pyrazinamide: ").append(ch6.isChecked());
+        result2.append("  | Rifampicin").append(ch5.isChecked());
+        result2.append("  | Ethambutol").append(ch7.isChecked());
 
         String anti_tb = rb4.getText().toString();
         String resistance = rb5.getText().toString();

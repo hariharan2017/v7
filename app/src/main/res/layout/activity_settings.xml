@@ -15,7 +15,7 @@
         android:layout_marginStart="82dp"
         android:layout_marginLeft="82dp"
         android:layout_marginTop="76dp"
-        android:text="Build"
+        android:text="Build Version v3.0"
         android:textColor="@android:color/black"
         android:textStyle="italic|bold"
         app:layout_constraintBottom_toBottomOf="parent"

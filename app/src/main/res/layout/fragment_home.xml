@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:text="Welcome to Yakshmaat \nAn anonymous TB reporting tool"
+        android:layout_marginTop="231dp"
+        android:text="Welcome to YAKSHMAAT, an anonymous TB reporting portal which connects Information Providers to the government for a better and effective TB treatment plan. "
         android:textStyle="bold|italic" />
 
     <ImageView
@@ -22,7 +22,8 @@
         android:layout_height="100dp"
         android:layout_alignStart="@+id/textView4"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="122dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="67dp"
         android:src="@drawable/header" />
 
 </RelativeLayout>

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.health.v7">
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
         android:allowBackup="true"
@@ -21,8 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".submit_data"></activity>
-        <activity android:name=".submit_symptoms"></activity>
+        <activity android:name=".submit_data" >
+        </activity>
+        <activity android:name=".submit_symptoms" />
+        <activity android:name=".submit_medical">
+
+        </activity>
     </application>
 
 </manifest>

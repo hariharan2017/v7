@@ -15,7 +15,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:text="Select the Symptoms" />
+        android:text="Select the Symptoms"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <CheckBox
         android:id="@+id/sym1"

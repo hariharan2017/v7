@@ -20,12 +20,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="488dp"
-        android:text="@string/congratulations_on_becoming_a_certified_rural_health_care_provider_rhcp_n_benefits_of_becoming_a_rhcp" />
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="88dp"
+        android:text="Congratulations on becoming a certified Rural Health Care Provider (RHCP).\nenefits of becoming a RHCP- " />
 
     <TextView
         android:id="@+id/textView8"
@@ -34,11 +32,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="7dp"
-        android:layout_marginLeft="7dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
         android:layout_marginTop="161dp"
-        android:layout_marginBottom="324dp"
-        android:text="@string/you_are_recognized_as_a_legal_rural_healthcare_provider_by_the_government_of_india_incentive_of_rs_150_on_every_tb_patient_data_by_the_rhcp_and_free_medicines_for_the_first_10_tb_patients_receive_diagnostic_kits_for_tb_skin_test_at_subsidized_rate_receive_anti_tb_fdc_s_for_tb_at_a_subsidized_rate_receive_support_from_the_government_during_an_epidemic_emergency_in_your_area" />
+        android:text="•  You are recognized as a legal rural healthcare provider by the government of India.\n•  Earn Rs.150 on your for every first 10 TB patient’s data that you provide to YAKSHMAAT.\n•  Receive diagnostic kits for TB skin test at subsidized rate.\n•  Receive anti-TB FDC’s for TB at a subsidized rate.\n•	 Receive support from the government during an epidemic emergency in your area." />
 
 </RelativeLayout>

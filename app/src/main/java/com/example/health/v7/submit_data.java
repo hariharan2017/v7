@@ -1,11 +1,14 @@
 package com.example.health.v7;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -16,8 +19,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class submit_data extends AppCompatActivity {
 
-    EditText firstname,lastname,addr,cont,des;
-    FirebaseDatabase mFirebaseDatabase;
+    EditText patient_name,patient_age,addr,fam,village,block,district,pstate,occupation,aadhar,cont1,cont2;
+    RadioGroup radioGroup;
+    RadioButton radioButton;
     DatabaseReference mRef;
 
     @Override
@@ -29,11 +33,23 @@ public class submit_data extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
 
-        firstname = findViewById(R.id.first_name);
-        lastname = findViewById(R.id.last_name);
+        patient_name = findViewById(R.id.name);
+        patient_age = findViewById(R.id.age);
+        radioGroup = findViewById(R.id.radioMarriage);
+
+        int selectedId = radioGroup.getCheckedRadioButtonId();
+        radioButton = findViewById(selectedId);
+
+        fam = findViewById(R.id.fam);
         addr = findViewById(R.id.address);
-        cont = findViewById(R.id.contact);
-        des = findViewById(R.id.desc);
+        village = findViewById(R.id.ward);
+        block = findViewById(R.id.block);
+        district = findViewById(R.id.district);
+        pstate = findViewById(R.id.state);
+        occupation = findViewById(R.id.occupation);
+        aadhar = findViewById(R.id.aadhar);
+        cont1 = findViewById(R.id.contact);
+        cont2 = findViewById(R.id.contact2);
 
         Bundle bundle = getIntent().getExtras();
         if(bundle != null){
@@ -50,6 +66,8 @@ public class submit_data extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         getValues();
                         Toast.makeText(submit_data.this, "Patient Details Entered Successfully", Toast.LENGTH_SHORT).show();
+                        Intent n1 = new Intent(submit_data.this,submit_symptoms.class);
+                        startActivity(n1);
                     }
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
@@ -64,13 +82,21 @@ public class submit_data extends AppCompatActivity {
     public void getValues() {
 
         String patientID = mRef.push().getKey();
-        String first_name = firstname.getText().toString();
-        String last_name = lastname.getText().toString();
+        String name = patient_name.getText().toString();
+        String age = patient_age.getText().toString();
+        String martial = radioButton.getText().toString();
+        String family = fam.getText().toString();
         String address = addr.getText().toString();
-        String contact = cont.getText().toString();
-        String desc = des.getText().toString();
+        String ward = village.getText().toString();
+        String taluka = block.getText().toString();
+        String dist = district.getText().toString();
+        String state_patient = pstate.getText().toString();
+        String occu = occupation.getText().toString();
+        String aadh = aadhar.getText().toString();
+        String contact1 = cont1.getText().toString();
+        String contact2 = cont2.getText().toString();
 
-        Patient patient = new Patient(first_name,last_name,address,desc,contact);
-        mRef.child(contact).setValue(patient);
+        Patient patient = new Patient(name,age,martial,family,address,ward,taluka,dist,state_patient,occu,aadh,contact1,contact2);
+        mRef.child(contact1).setValue(patient);
     }
 }
